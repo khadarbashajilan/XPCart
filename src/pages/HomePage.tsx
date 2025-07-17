@@ -1,29 +1,17 @@
-import React, { useState } from "react";
 import { products } from "../data/products";
 import { Link } from "react-router-dom";
 import { ShoppingCart, Star } from "lucide-react";
+import { useCart } from "../context/CartContext";
+// import { CartContext, useCart } from "../context/CartContext";
 
-interface CartItem {
-  ProductId: number;
-  quantity: number;
-}
 
 const HomePage = () => {
-  const [cart, setcart] = useState<CartItem[]>([]);
-
+  
+  const {cart}=useCart();
+  const {addToCart}=useCart();
+  
   const prodcount = cart.reduce((sum, prod) => sum + prod.quantity, 0);
 
-  function addToCart(id: number) {
-    setcart(
-      cart.some((item) => item.ProductId === id)
-        ? cart.map((item) =>
-            item.ProductId === id
-              ? { ...item, quantity: item.quantity + 1 }
-              : item
-          )
-        : [...cart, { ProductId: id, quantity: 1 }]
-    );
-  }
   return (
     <>
       <header className="p-6 sticky top-0 z-50 backdrop-blur-md">
