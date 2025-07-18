@@ -19,10 +19,14 @@ export interface CartProducts {
   rating: number;
   reviews: Reviews[];
 }
+export interface InCart extends CartProducts {
+  quantity: number;
+}
+
 export interface CartContextType{
     cart:cartItem[];
     addToCart:(id:number)=>void;
     removeFromCart:(id:number)=>void;
     getProductQuantity:(id:number)=>number;
-    // cartProducts:CartProducts[];
+    cartProducts:InCart[];
 }
