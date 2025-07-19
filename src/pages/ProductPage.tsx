@@ -17,11 +17,7 @@ const ProductPage = () => {
     // or return null/undefined, or show an error message
   }
 
-  // const {cart}=useCart();
-  const {addToCart}=useCart();
-  const {removeFromCart}=useCart();
-
-  const {getProductQuantity} = useCart();
+  const {addToCart, getProductQuantity, removeFromCart}=useCart();
   
   const quantity = getProductQuantity(product.id);
 
@@ -75,7 +71,7 @@ const ProductPage = () => {
                 <span>{quantity}</span>
 
                 <button
-                  className="  rounded-sm px-2 py-1 cursor-pointer"
+                  className="rounded-sm px-2 py-1 cursor-pointer"
                   onClick={() => addToCart(product.id)}
                 >
                   <Plus className="size-5 text-white" />

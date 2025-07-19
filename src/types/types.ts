@@ -25,8 +25,11 @@ export interface InCart extends CartProducts {
 
 export interface CartContextType{
     cart:cartItem[];
+    cartTotal:number;
     addToCart:(id:number)=>void;
     removeFromCart:(id:number)=>void;
+    deleteFromCart:(id:number)=>void;
     getProductQuantity:(id:number)=>number;
+    clearCart: () => void;
     cartProducts:InCart[];
 }
