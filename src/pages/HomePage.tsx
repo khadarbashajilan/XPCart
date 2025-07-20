@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <>
       <section className="flex flex-col gap-5">
-        <h1 className="text-3xl md:text-4xl px-5 mt-8 font-bold">Gaming Products</h1>
+        <h1 className="text-3xl md:text-4xl px-5 mt-5 font-bold">Gaming Products</h1>
         <div className="grid gap-12 md:grid-cols-2 xl:grid-cols-3 m-2 p-4">
           {products.map((item, idx) => (
             <div key={idx} className="flex flex-col gap-y-6  ">

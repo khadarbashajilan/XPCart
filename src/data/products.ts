@@ -197,7 +197,7 @@ export const products = [
     "name": "Pro Gaming Chair",
     "price": 249.99,
     "description": "Ergonomic racing-style gaming chair with lumbar support and adjustable height.",
-    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/gaming-chair/d/a/j/1usa-premium-gaming-chair-gt-player-original-imahckqxvpkyy7xg.jpeg?q=70",
+    "image": "https://images.unsplash.com/photo-1612011213721-3936d387f318?q=80&w=2138&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "rating": 5,
     "reviews": [
       {
@@ -293,7 +293,7 @@ export const products = [
     "name": "4K Gaming Webcam",
     "price": 79.99,
     "description": "Ultra HD webcam with auto-focus and low-light correction for streaming.",
-    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/webcam/e/c/x/pro-live-n3-bigpassport-original-imagx7npzwbczb4j.jpeg?q=70",
+    "image": "https://images.unsplash.com/photo-1636569826709-8e07f6104992?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "rating": 4,
     "reviews": [
       {
@@ -325,7 +325,7 @@ export const products = [
     "name": "RGB Gaming Speakers",
     "price": 49.99,
     "description": "2.1 channel gaming speakers with RGB lighting and powerful bass.",
-    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/gaming-speaker/l/n/l/latest-portable-trolley-wireless-outdoor-speaker-with-fm-card-original-imahddz483m3xsrm.jpeg?q=70",
+    "image": "https://images.unsplash.com/photo-1747666095272-e53fc1593e2a?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "rating": 3,
     "reviews": [
       {
@@ -357,7 +357,7 @@ export const products = [
     "name": "Studio Gaming Microphone",
     "price": 129.99,
     "description": "Professional condenser microphone with pop filter for crystal clear audio.",
-    "image": "https://rukminim2.flixcart.com/image/612/612/kqse07k0/microphone/b/o/v/microphone-for-youtube-collar-mike-for-voice-recording-zauky-original-imag4q3qzxtghmje.jpeg?q=70",
+    "image": "https://images.unsplash.com/photo-1644767479973-a053733ef283?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "rating": 5,
     "reviews": [
       {
@@ -379,177 +379,6 @@ export const products = [
         "user": "Sophie Martinez",
         "rating": 5,
         "comment": "Studio quality microphone, highly recommended.",
-        "date": "2024-01-25"
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "url": "gaming-laptop",
-    "name": "High-Performance Gaming Laptop",
-    "price": 1299.99,
-    "description": "15.6-inch gaming laptop with RTX graphics and 144Hz display.",
-    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/l/t/p/-original-imahcd9gbkyhmyah.jpeg?q=70",
-    "rating": 5,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "Kevin Zhang",
-        "rating": 5,
-        "comment": "Incredible performance. Runs all games on max settings.",
-        "date": "2024-03-05"
-      },
-      {
-        "id": 2,
-        "user": "Maria Santos",
-        "rating": 5,
-        "comment": "144Hz display is smooth, RTX graphics are amazing.",
-        "date": "2024-02-18"
-      },
-      {
-        "id": 3,
-        "user": "James Wilson",
-        "rating": 5,
-        "comment": "Perfect gaming laptop, excellent build quality.",
-        "date": "2024-02-05"
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "url": "gaming-ssd",
-    "name": "NVMe Gaming SSD",
-    "price": 89.99,
-    "description": "1TB NVMe SSD with ultra-fast loading times for gaming.",
-    "image": "https://rukminim2.flixcart.com/image/612/612/ktop5e80/internal-hard-drive/h/8/r/firecuda-520-internal-ssd-with-pcie-gen4-x4-nvme-1-3-for-gaming-original-imag6z25mg4rj7rm.jpeg?q=70",
-    "rating": 4,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "Daniel Moore",
-        "rating": 4,
-        "comment": "Lightning fast load times. Great upgrade.",
-        "date": "2024-02-18"
-      },
-      {
-        "id": 2,
-        "user": "Rachel Kim",
-        "rating": 4,
-        "comment": "Games load in seconds, very reliable.",
-        "date": "2024-02-05"
-      },
-      {
-        "id": 3,
-        "user": "Eric Johnson",
-        "rating": 4,
-        "comment": "Excellent performance boost, easy to install.",
-        "date": "2024-01-22"
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "url": "gaming-ram",
-    "name": "16GB Gaming RAM Kit",
-    "price": 79.99,
-    "description": "DDR4 16GB RGB RAM kit optimized for gaming performance.",
-    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/ram/h/k/o/fury-kingston-original-imahffwjmnvhxwfz.jpeg?q=70",
-    "rating": 4,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "Sophie Turner",
-        "rating": 4,
-        "comment": "Great performance boost and looks amazing with RGB.",
-        "date": "2024-01-30"
-      },
-      {
-        "id": 2,
-        "user": "Michael Davis",
-        "rating": 4,
-        "comment": "Stable performance, RGB lighting is customizable.",
-        "date": "2024-01-15"
-      },
-      {
-        "id": 3,
-        "user": "Ashley Chen",
-        "rating": 4,
-        "comment": "Perfect for gaming, noticeable performance improvement.",
-        "date": "2024-01-08"
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "url": "gaming-cooling-fan",
-    "name": "RGB CPU Cooling Fan",
-    "price": 39.99,
-    "description": "High-performance CPU cooler with RGB lighting and quiet operation.",
-    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/gaming-accessory-kit/performance-gaming-kit/i/h/w/f26-magneticmobile-radiator-cooling-fan-semiconductor-phone-original-imah35yzz5hzgucc.jpeg?q=70",
-    "rating": 4,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "James Wright",
-        "rating": 4,
-        "comment": "Keeps my CPU cool and the RGB looks great.",
-        "date": "2024-02-03"
-      },
-      {
-        "id": 2,
-        "user": "Laura Mitchell",
-        "rating": 4,
-        "comment": "Very quiet operation and effective cooling.",
-        "date": "2024-01-20"
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "url": "gaming-vr-headset",
-    "name": "VR Gaming Headset",
-    "price": 399.99,
-    "description": "Immersive VR headset with 4K resolution and 120Hz refresh rate.",
-    "image": "https://images.unsplash.com/photo-1658555012297-edb48f0c2d4c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2FtaW5nJTIwdnJ8ZW58MHx8MHx8fDA%3D",
-    "rating": 5,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "Grace Wilson",
-        "rating": 5,
-        "comment": "Amazing VR experience. Crystal clear visuals.",
-        "date": "2024-03-08"
-      },
-      {
-        "id": 2,
-        "user": "Connor Davis",
-        "rating": 5,
-        "comment": "4K resolution is incredible, 120Hz is so smooth.",
-        "date": "2024-02-22"
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "url": "gaming-racing-wheel",
-    "name": "Racing Wheel & Pedals",
-    "price": 299.99,
-    "description": "Force feedback racing wheel with responsive pedals for racing games.",
-    "image": "https://plus.unsplash.com/premium_photo-1744139468979-98d80748c5a5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2FtaW5nJTIwcmFjaW5nJTIwd2hlZWx8ZW58MHx8MHx8fDA%3D",
-    "rating": 4,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "Lucas Taylor",
-        "rating": 4,
-        "comment": "Great for racing games. Realistic force feedback.",
-        "date": "2024-02-08"
-      },
-      {
-        "id": 2,
-        "user": "Natalie Garcia",
-        "rating": 4,
-        "comment": "Pedals are responsive, wheel feels authentic.",
         "date": "2024-01-25"
       }
     ]
