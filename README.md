@@ -80,7 +80,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## 🔗 Links
 
-- [Live Demo](https://your-live-demo-url.com)
+- [Live Demo](https://xp-cart.vercel.app/)
 - [GitHub Repository](https://github.com/khadarbashajilan/xpcart)
 
 ---
