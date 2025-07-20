@@ -17,47 +17,39 @@ const ProductPage = () => {
     // or return null/undefined, or show an error message
   }
 
-  const {addToCart, getProductQuantity, removeFromCart}=useCart();
-  
+  const { addToCart, getProductQuantity, removeFromCart } = useCart();
+
   const quantity = getProductQuantity(product.id);
 
   return (
     <>
-      <section>
-        <h2>{product?.name}</h2>
-
-        <div className="flex gap-x-8 items-center ">
-          <div className="flex">
-            {[...Array(5)].map((_, i) => (
-              <Star
-                key={i}
-                className={`size-5 ${
-                  i < product.rating ? "text-yellow-400" : "text-gray-400"
-                }`}
-              />
-            ))}
+      <section className="flex flex-col px-4">
+        <div className="flex flex-col pe-5 ps-2 my-8 gap-2">
+          <h2 className="text-2xl md:text-3xl font-bold">{product?.name}</h2>
+          <div className="flex gap-x-8 items-center ">
+            <div className="flex">
+              {[...Array(5)].map((_, i) => (
+                <Star
+                  key={i}
+                  className={`size-5 ${
+                    i < product.rating ? "text-yellow-400" : "text-gray-400"
+                  }`}
+                />
+              ))}
+            </div>
           </div>
-
-          <span className="text-xl">
-            {product.reviews.length}{" "}
-            {product.reviews.length === 1 ? "rating" : "ratings"}
-          </span>
         </div>
-
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
           <figure>
             <img
               src={product.image}
               alt={product.name}
-              className="rounded-sm"
+              className="rounded-sm lg:h-100"
             />
           </figure>
-
           <div className="flex flex-col gap-4">
             <p className="text-xl">{product.description}</p>
-
             <p className="text-xl">${product.price}</p>
-
             <div className="grid gap-4 sm:grid-cols-[200px_1fr] lg:grid-cols-1">
               <div className="flex justify-between border rounded-sm p-4 lg:w-fit lg:gap-x-8">
                 <button
@@ -67,9 +59,7 @@ const ProductPage = () => {
                 >
                   <Minus className="size-5 text-white" />
                 </button>
-
                 <span>{quantity}</span>
-
                 <button
                   className="rounded-sm px-2 py-1 cursor-pointer"
                   onClick={() => addToCart(product.id)}
@@ -96,7 +86,6 @@ const ProductPage = () => {
             </div>
           </div>
         </div>
-
         <Reviews reviews={product.reviews} />
       </section>
     </>

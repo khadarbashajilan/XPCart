@@ -2,26 +2,20 @@ import { products } from "../data/products";
 import { Link } from "react-router-dom";
 import { ShoppingCart, Star } from "lucide-react";
 import { useCart } from "../context/CartContext";
-// import { CartContext, useCart } from "../context/CartContext";
-
 
 const HomePage = () => {
   
-  // const {cart}=useCart();
   const {addToCart}=useCart();  
 
   return (
     <>
-   
-
-      <section className="flex flex-col gap-8">
-        <h1 className="text-4xl font-bold">Gaming Products</h1>
-
-        <div className="grid gap-12 md:grid-cols-2 xl:grid-cols-3">
+      <section className="flex flex-col gap-5">
+        <h1 className="text-3xl md:text-4xl px-5 mt-8 font-bold">Gaming Products</h1>
+        <div className="grid gap-12 md:grid-cols-2 xl:grid-cols-3 m-2 p-4">
           {products.map((item, idx) => (
-            <div key={idx} className="flex flex-col gap-y-6  pl-4">
+            <div key={idx} className="flex flex-col gap-y-6  ">
               <Link to={`/${item.url}`}>
-                <figure className="h-96">
+                <figure className="h-75">
                   <img
                     src={item.image}
                     alt={item.url}

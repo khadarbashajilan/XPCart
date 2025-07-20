@@ -1,5 +1,4 @@
 import { Star } from "lucide-react";
-// import { ReviewsProps } from "../types";
 
 interface Reviews {
   id: number;

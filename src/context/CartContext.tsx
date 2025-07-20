@@ -1,10 +1,10 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useEffect, useState } from "react";
 import type { CartContextType, cartItem } from "../types/types";
 import { products } from "../data/products";
 
 // create a context for the cart
 
-// eslint-disable-next-line react-refresh/only-export-components
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
 // Provide the context to the application
@@ -157,7 +157,6 @@ function removeFromCart(id: number) {
   );
 }
 
-// eslint-disable-next-line react-refresh/only-export-components
 export function useCart() {
   const context = useContext(CartContext);
   if (!context) {
@@ -165,3 +164,4 @@ export function useCart() {
   }
   return context;
 }
+// useCart -> This is a custom hook that provides access to the CartContext

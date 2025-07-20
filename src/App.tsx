@@ -1,4 +1,3 @@
-// 'text-[#58a6ff]' -> text
 import './index.css'
 import Layout from './layouts/Layout'
 import NotFoundPage from './pages/NotFoundPage'
